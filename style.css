@@ -1,0 +1,172 @@
+/* ヘッダー */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: teal;
+}
+
+a {
+  padding: 0px 20px;
+}
+
+.header-left{
+  color: white;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: purple;
+  border-radius: 8px;
+  font-size: 20px;
+  color: black;
+  transition: background-color 2s linear 1s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-image: url(./img/hobby.contents.webp);
+  background-size: cover;
+}
+
+/* ここからmain-title */
+/* .pointer {
+    clip-path: polygon(0 64%, 12% 75%, 37% 43%, 51% 55%, 26% 86%, 40% 100%, 0 100%);
+    width: 30%;
+    height: 30vh;
+    background-color: red;
+    position: absolute;
+    top: 355px;
+    left: 750px;
+
+} */
+
+
+/* .main-title{
+    background-image: url(./img/IMG_1364.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+} */
+
+/* .selfe{
+    color: rgba(0, 0, 255, 0.51);
+    font-size: 100px;
+    text-align: center;
+    padding: 180px;
+} */
+
+
+/* ここからMY */
+
+#MY {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  padding: 30px 0;
+  background-image: url(./img/5F872697-478B-45FD-9828-D045E0C871B1_4_5005_c.jpeg);
+  background-position: center;
+}
+
+.my-profile img {
+  margin-left: 50px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.profile ul {
+  margin-right: 50px;
+  font-size: 30px;
+}
+
+small {
+  color: red;
+}
+
+/* ここからbest games */
+
+#best-games {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px 0;
+  font-size: 60px;
+  background-image: url(./img/5F872697-478B-45FD-9828-D045E0C871B1_4_5005_c.jpeg);
+  background-position: center;
+}
+
+/* ここからbest1 */
+
+.hobby-game img {
+  border-radius: 10px;
+}
+
+.best-game {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.best2-game {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.No0 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: crimson;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* ここからfooter */
+footer{
+  padding: 15px 0;
+  background-color: chartreuse;
+  margin-top: 200px;
+  text-align: center;
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 780px) {
+  .header-right{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile {
+    display: block;
+  }
+
+  .profile ul {
+    font-size: 15px;
+  }
+
+  .my-profile img{
+    margin: 0 auto;
+  }
+
+  .best-game{
+    display: block;
+  }
+  
+  .best2-game{
+    display: flex;
+    flex-direction: column-reverse;
+  } 
+}
