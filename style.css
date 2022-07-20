@@ -90,9 +90,9 @@ small {
   color: red;
 }
 
-/* ここからbest games */
+/* ここからhistory */
 
-#best-games {
+#my-history {
   color: white;
   text-align: center;
   margin-top: 30px;
@@ -102,37 +102,6 @@ small {
   background-position: center;
 }
 
-/* ここからbest1 */
-
-.hobby-game img {
-  border-radius: 10px;
-}
-
-.best-game {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 50px;
-}
-
-.best2-game {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 50px;
-}
-
-.No0 {
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  color: crimson;
-}
-
-.title {
-  font-size: 30px;
-  text-align: center;
-}
 
 /* ここからfooter */
 footer{
