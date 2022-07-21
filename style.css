@@ -103,6 +103,10 @@ small {
 }
 
 /* ここからskills */
+.container{
+  display: flex;
+  flex-direction: column;
+}
 
 
 /* ここからhistory */
