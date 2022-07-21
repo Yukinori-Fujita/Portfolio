@@ -108,6 +108,20 @@ small {
   flex-direction: column;
 }
 
+/* ここからstrength */
+.strength-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.strength-text{
+  border-radius: 0.5em;
+  background-color: rgba(0, 0, 255, 0.416);
+  width: 30%;
+  /* color: white; */
+}
 
 /* ここからhistory */
 .history-text{
@@ -188,6 +202,16 @@ footer{
 
   .my-profile img{
     margin: 0 auto;
+  }
+
+  .strength-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .strength-text{
+    width: 75%;
+    margin-top: 30px;
   }
 
   .history-text p{
