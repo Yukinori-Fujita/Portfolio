@@ -30,45 +30,56 @@ button:hover {
   background-size: cover;
 }
 
-/* ここからmain-title */
-/* .pointer {
-    clip-path: polygon(0 64%, 12% 75%, 37% 43%, 51% 55%, 26% 86%, 40% 100%, 0 100%);
-    width: 30%;
-    height: 30vh;
-    background-color: red;
-    position: absolute;
-    top: 355px;
-    left: 750px;
+/* ここからkv */
+#kv{
+  position: relative;
+}
 
-} */
+.name{
+  color: rgba(5, 192, 89, 0.703);
+  font-size: 80px;
+  top: 10%;
+  right: 10%;
+  position: absolute;
+  /* 縦書きにする */
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+.title{
+  color: rgba(5, 192, 89, 0.703);
+  font-size: 80px;
+  top: 35%;
+  left: 10%;
+  position: absolute;
+  /* 縦書きにする */
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+.pointer{
+  position: absolute;
+  top: 52%;
+  right: 26%;
+  clip-path: polygon(0 46%, 14% 59%, 73% 0, 100% 23%, 39% 83%, 48% 100%, 0 100%);
+  background-color: blue;
+  width: 10%;
+  height: 10vh;
+}
 
 
-/* .main-title{
-    background-image: url(./img/IMG_1364.JPG);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-} */
-
-/* .selfe{
-    color: rgba(0, 0, 255, 0.51);
-    font-size: 100px;
-    text-align: center;
-    padding: 180px;
-} */
-
-
-/* ここからMY */
-
-#MY {
+/* sectionの共通部分 */
+.wrap{
   color: white;
-  font-size: 60px;
   text-align: center;
+  /* margin-top: 30px; */
   padding: 30px 0;
+  font-size: 60px;
   background-image: url(./img/5F872697-478B-45FD-9828-D045E0C871B1_4_5005_c.jpeg);
   background-position: center;
 }
+
+/* ここからabout */
 
 .my-profile img {
   margin-left: 50px;
@@ -79,6 +90,7 @@ button:hover {
   justify-content: space-around;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .profile ul {
@@ -90,17 +102,10 @@ small {
   color: red;
 }
 
-/* ここからhistory */
+/* ここからskills */
 
-#my-history {
-  color: white;
-  text-align: center;
-  margin-top: 30px;
-  padding: 30px 0;
-  font-size: 60px;
-  background-image: url(./img/5F872697-478B-45FD-9828-D045E0C871B1_4_5005_c.jpeg);
-  background-position: center;
-}
+
+/* ここからhistory */
 
 
 /* ここからfooter */
