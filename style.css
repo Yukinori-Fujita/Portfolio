@@ -33,11 +33,18 @@ button:hover {
 /* ここからkv */
 #kv{
   position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url(./img/IMG_1364.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .name{
   color: rgba(5, 192, 89, 0.703);
-  font-size: 80px;
+  font-size: 75px;
   top: 10%;
   right: 10%;
   position: absolute;
@@ -48,7 +55,7 @@ button:hover {
 
 .title{
   color: rgba(5, 192, 89, 0.703);
-  font-size: 80px;
+  font-size: 75px;
   top: 35%;
   left: 10%;
   position: absolute;
