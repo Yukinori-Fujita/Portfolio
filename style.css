@@ -44,7 +44,7 @@ button:hover {
 
 .name{
   color: rgba(5, 192, 89, 0.703);
-  font-size: 75px;
+  font-size: 70px;
   top: 10%;
   right: 10%;
   position: absolute;
@@ -55,7 +55,7 @@ button:hover {
 
 .title{
   color: rgba(5, 192, 89, 0.703);
-  font-size: 75px;
+  font-size: 70px;
   top: 35%;
   left: 10%;
   position: absolute;
