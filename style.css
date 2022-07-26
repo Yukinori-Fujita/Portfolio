@@ -11,7 +11,7 @@ a {
   padding: 0px 20px;
 }
 
-.header-left{
+.header-left {
   color: white;
 }
 
@@ -31,7 +31,7 @@ button:hover {
 }
 
 /* ここからkv */
-#kv{
+#kv {
   position: relative;
   height: 100vh;
   width: 100%;
@@ -42,7 +42,7 @@ button:hover {
 
 }
 
-.name{
+.name {
   color: rgba(5, 192, 89, 0.703);
   font-size: 70px;
   top: 10%;
@@ -53,7 +53,7 @@ button:hover {
   writing-mode: vertical-rl;
 }
 
-.title{
+.title {
   color: rgba(5, 192, 89, 0.703);
   font-size: 70px;
   top: 35%;
@@ -64,7 +64,7 @@ button:hover {
   writing-mode: vertical-rl;
 }
 
-.pointer{
+.pointer {
   position: absolute;
   top: 52%;
   right: 26%;
@@ -76,7 +76,7 @@ button:hover {
 
 
 /* sectionの共通部分 */
-.wrap{
+.wrap {
   color: white;
   text-align: center;
   /* margin-top: 30px; */
@@ -110,20 +110,32 @@ small {
 }
 
 /* ここからskills */
-.container{
+.container-skills {
+  display: flex;
+  justify-content: center;
+  padding: 200px 0;
+}
+
+/* ここからworks */
+.container {
   display: flex;
   flex-direction: column;
 }
 
+.css-img {
+  width: 200px;
+  height: 250px;
+}
+
 /* ここからstrength */
-.strength-container{
+.strength-container {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.strength-text{
+.strength-text {
   border-radius: 0.5em;
   background-color: rgba(0, 0, 255, 0.416);
   width: 30%;
@@ -131,14 +143,14 @@ small {
 }
 
 /* ここからhistory */
-.history-text{
+.history-text {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 100px;
 }
 
-.history-text p{
+.history-text p {
   background-color: rgba(0, 0, 255, 0.416);
   color: white;
   border-radius: 0.5em;
@@ -149,7 +161,7 @@ small {
 
 
 /* ここからfooter */
-footer{
+footer {
   padding: 15px 0;
   background-color: chartreuse;
   margin-top: 200px;
@@ -173,12 +185,12 @@ footer{
 
 /* レスポンシブ対応 */
 @media screen and (max-width: 780px) {
-  .header-right{
+  .header-right {
     display: flex;
     flex-direction: column;
   }
 
-  button{
+  button {
     padding: 2px 13px;
     font-size: 12px;
   }
@@ -187,15 +199,19 @@ footer{
     flex-direction: column;
   }
 
-  .name{
+  #kv{
+    height: 35vh;
+  }
+
+  .name {
     font-size: 23px;
   }
 
-  .title{
+  .title {
     font-size: 23px;
   }
 
-  .pointer{
+  .pointer {
     top: 44%;
     right: 30%;
     height: 5vh;
@@ -207,21 +223,26 @@ footer{
     margin-top: 20px;
   }
 
-  .my-profile img{
+  .my-profile img {
     margin: 0 auto;
   }
 
-  .strength-container{
+  .container-skills{
     flex-direction: column;
     align-items: center;
   }
 
-  .strength-text{
+  .strength-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .strength-text {
     width: 75%;
     margin-top: 30px;
   }
 
-  .history-text p{
+  .history-text p {
     padding: 40px;
     width: 88%;
     line-height: 30px;
